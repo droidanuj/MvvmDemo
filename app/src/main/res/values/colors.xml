@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#90C3B1</color>
+    <color name="purple_500">#90C3B1</color>
+    <color name="purple_700">#90C3B1</color>
+    <color name="teal_200">#CFDED9</color>
+    <color name="teal_700">#CFDED9</color>
+    <color name="black">#FF000000</color>
+    <color name="light_gray">#20000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_item">#CFDED9</color>
+
+</resources>
