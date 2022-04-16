@@ -6,6 +6,7 @@ import android.net.NetworkCapabilities
 import android.os.Build
 
 class NetworkHelper constructor(private val context: Context) {
+
     fun isNetworkConnected(): Boolean {
         var result = false
         val connectivityManager =
@@ -29,11 +30,9 @@ class NetworkHelper constructor(private val context: Context) {
                         ConnectivityManager.TYPE_ETHERNET -> true
                         else -> false
                     }
-
                 }
             }
         }
-
         return result
     }
 }
